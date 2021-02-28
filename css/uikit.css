@@ -2,12 +2,15 @@
  
  */
 
+ 
  .corpo{
    align-items: justify; justify-content: center; text-align: justify;
    width: 50%;
    margin: 0 auto;
    background-color: rgba(0, 0, 0, 0.63);
    padding: 12px;
+   margin-top: 10px;
+   margin-bottom: 10px;
 
  }
 
