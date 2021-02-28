@@ -1,3 +1,81 @@
+ /*CSS Lucas e Luiz
+ 
+ */
+
+body{
+  background-image: linear-gradient(#ffffff60,#ffffff60), url("../img/fundo.jpg");
+}
+
+.corpo{
+  align-items: justify; justify-content: center; text-align: justify;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #5AB8EC80;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#foto1{
+  align-items: center; display: flex; justify-content: center; width: 100%;
+}
+
+p{
+  font-size: large;
+  font-weight: 500;
+  color: black;
+}
+
+.color{
+  /* color: white; */
+  font-weight: bold;
+}
+
+
+ .rodape{
+   width: 100%;
+   background-color: #68A9C6 ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .github{
+   color: white;
+   display: flex;
+   width: auto;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .nome{
+   color: white;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ .nome p,
+ .rodape p{
+   color: white;
+ }
+
+ .imagens{
+
+   transition: 0.3s;
+ }
+ .imagens:hover{
+   transform: scale(1.2);
+   
+ }
+
+ .navh:hover{
+   transform: scale(1.2);
+   text-shadow: 0 0 10px black;
+ }
+
 /*Estilos de Elisete*/
 .img-size{
   height: 30vh;
@@ -5,8 +83,31 @@
 }
 
 .container{
-  margin: 0 auto;
+  margin: 0 auto 8vh;
   width: 60%;
+}
+
+.nav-z-index{
+  z-index: 99;
+}
+
+.color-blue-corpo{
+  background-color: #5AB8EC;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.color-blue{
+  background-color: #5AB8EC90;
+}
+
+.bold{
+  color: black;
+  font-weight: bold;
 }
 
 /*! UIkit 3.6.17 | https://www.getuikit.com | (c) 2014 - 2021 YOOtheme | MIT License */
@@ -2723,6 +2824,7 @@ select.uk-form-width-xsmall {
  * Note: Header and Footer are only implemented for the default style
  */
 .uk-card-default {
+  /* background-color: #5AB8EC; */
   background: #fff;
   color: #666;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
@@ -7210,7 +7312,7 @@ ul.uk-nav-sub {
 .uk-text-meta {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #999;
+  /* color: #999; */
 }
 .uk-text-meta a {
   color: #999;
