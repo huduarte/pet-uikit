@@ -1,3 +1,14 @@
+/*Estilos de Elisete*/
+.img-size{
+  height: 30vh;
+  width: 30vh;
+}
+
+.container{
+  margin: 0 auto;
+  width: 60%;
+}
+
 /*! UIkit 3.6.17 | https://www.getuikit.com | (c) 2014 - 2021 YOOtheme | MIT License */
 /* ========================================================================
    Component: Base
