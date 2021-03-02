@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Pet-UiKit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/uikit.css" />
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <link rel="shortcut icon" type="imagem/x-icon" href="./img/logo.png" />
+
+  <style>
+    body{
+      height: 100vh;
+    }
+
+    .container{
+      margin-top: -100px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+  </style>
+</head>
+
+<body>
+  <nav class="uk-navbar-container nav-z-index" uk-navbar style="background-color: #68A9C6;">
+    <div class="uk-navbar-center">
+
+      <ul class="uk-navbar-nav">
+        <li class="uk-active navh"><a style="color: white; font-size: 3vh;" href="./index.html">Home</a>
+        </li>
+        <li class="navh"><a href="#" style="color: white; font-size: 3vh;">Adoção</a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav uk-thumbnav">
+              <li class="uk-active navh">Pets</li>
+              <li><a href="./lista-cachorro.html" style="color: black;">Cachorros<img src="./img/cachorro.jpg"
+                    alt="img_dog"></a></li>
+              <li><a href="./lista-gato.html" style="color: black;">Gatos<img src="./img/gato.jpg" alt="img_cat"></a>
+              </li>
+
+            </ul>
+          </div>
+        </li>
+        <li class="navh"><a href="#" style="color: white; font-size: 3vh;">Sobre nós</a></li>
+        <li class="navh"><a href="#" style="color: white; font-size: 3vh;">Contato</a></li>
+      </ul>
+
+    </div>
+
+  </nav>
+  <section class="container">
+    <h1 class="uk-text-bolder uk-text-uppercase uk-text-center uk-margin-large uk-margin-large-top">Conheça mais sobre o MIAU!</h1>
+
+    <div class="uk-card uk-card-default uk-width-1-2@m dog">
+      <div class="uk-card-header">
+          <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                  <img class="uk-border-circle" width="200" height="200" src="./img/cat-1.jpg">
+              </div>
+              <div class="uk-width-expand">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">Miau</h3>
+                  <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">5 meses</time></p>
+              </div>
+          </div>
+      </div>
+      <div class="uk-card-body">
+          <p>Miau adora tomar leite e se esconder debaixo da cama.</p>
+      </div>
+      <div class="uk-card-footer">
+          <a href="#" class="uk-button uk-button-text">Adote o Miau</a>
+      </div>
+  </div>
+
+
+  </section>
+</body>
+
+</html>
