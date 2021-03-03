@@ -105,6 +105,12 @@ p{
   background-color: #5AB8EC90;
 }
 
+.color-button{
+  background-color: #e41818;
+  color: white !important;
+  font-weight:bold !important;
+}
+
 .bold{
   color: black;
   font-weight: bold;

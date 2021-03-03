@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pet-UiKit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="shortcut icon" type="imagem/x-icon" href="./img/logo.png" />
+</head>
+
+<body>
+    <!--Barra de navegação-->
+    <nav class="uk-navbar-container nav-z-index" uk-navbar style="background-color: #68A9C6;">
+        <div class="uk-navbar-center">
+
+            <ul class="uk-navbar-nav">
+                <li class="uk-active navh"><a style="color: white; font-size: 3vh;" href="./index.html">Home</a>
+                </li>
+                <li class="navh"><a href="#" style="color: white; font-size: 3vh;">Adoção</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav uk-thumbnav">
+                            <li class="uk-active navh">Pets</li>
+                            <li><a href="./lista-cachorro.html" style="color: black;">Cachorros<img
+                                        src="./img/cachorro.jpg" alt="img_dog"></a></li>
+                            <li><a href="./lista-gato.html" style="color: black;">Gatos<img src="./img/gato.jpg"
+                                        alt="img_cat"></a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="navh"><a href="#" style="color: white; font-size: 3vh;">Sobre nós</a></li>
+                <li class="navh"><a href="#" style="color: white; font-size: 3vh;">Contato</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="corpo uk-border-rounded">
+        <h2 class="uk-text-bolder uk-text-uppercase uk-text-center uk-margin-large uk-margin-large-top color">Alguma dúvida? Entre em contato com a gente!</h2>
+        <div class="uk-grid-column-large uk-grid-row-large uk-child-width-expand@s color-blue uk-align-center uk-border-rounded">
+
+            <form class="uk-align-center uk-resize uk-card ">
+				<br>
+				<fieldset class="uk-fieldset">
+					
+					<div class="uk-margin">
+						<input class="uk-input uk-form-width-large uk-border-rounded" type="text" placeholder="Nome Completo">
+					</div>
+					
+					<div class="uk-margin">
+						<input class="uk-input uk-form-width-large uk-border-rounded" type="email" placeholder="Email">
+					</div>
+					
+					<div class="uk-margin">
+						<input class="uk-input uk-form-width-small uk-border-rounded" type="number" placeholder="Idade">
+					</div>
+
+					<div class="uk-margin">
+						<textarea class="uk-textarea uk-form-width-large uk-border-rounded" rows="5" placeholder="Digite sua mensagem aqui"></textarea>
+					</div>
+
+					<div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+						<label class="color"><input type="checkbox" > Desejo receber emails com novidades sobre os pets</label>
+					</div>
+					
+					<div class="uk-margin">
+						<hr class="uk-form-width-large"/>
+						<button class="uk-button color-button uk-border-rounded">Enviar</button>
+					</div>	
+						
+				</fieldset>
+			</form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer feito manual, framework não oferecia-->
+    <footer>
+
+        <div class="rodape">
+
+
+            <div class="github">
+
+                <div class="liz nome">
+                    <p>Eliste Vidotti</p>
+                    <a href="https://github.com/lizvidotti91" target="blank"><img class="imagens"
+                            src="./img/github.png"></a>
+                </div>
+
+                <div class="hudson nome">
+                    <p>Hudson Duarte</p>
+                    <a href="https://github.com/huduarte" target="blank"><img class="imagens"
+                            src="./img/github.png"></a>
+                </div>
+
+                <div class="Lucas nome">
+                    <p>João Lucas Andrade</p>
+                    <a href="https://github.com/Jlucas93" target="blank"><img class="imagens"
+                            src="./img/github.png"></a>
+                </div>
+
+                <div class="Jorge nome">
+                    <p>Jorge Valois</p>
+                    <a href="https://github.com/JorgeValois" target="blank"><img class="imagens"
+                            src="./img/github.png"></a>
+                </div>
+
+                <div class="Luiz nome">
+                    <p>Luiz Gonzaga</p>
+                    <a href="#" target="blank"><img class="imagens" src="./img/github.png"></a>
+                </div>
+
+            </div>
+            <p style="font-weight: bolder;"> &copy; SENAI - CIMATEC : Desenvolvimento de Sistemas 2</p>
+        </div>
+    </footer>
+</body>
+
+</html>
